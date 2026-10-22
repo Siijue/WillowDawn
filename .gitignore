@@ -1,0 +1,69 @@
+# ===== Unreal Engine 5 =====
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+Config/*/User*.ini
+Config/UserSettings.ini
+*.sdf
+*.opensdf
+*.sln
+*.VC.db
+*.VC.opendb
+*.user
+*.userprefs
+*.uproject.user
+*.code-workspace
+*.target
+*.modules
+*.version
+*.build.cs.old
+*.umap.autosave
+*.autosave
+AutoScreenshot.png
+*_HLOD*_Instancing.uasset
+*_HLOD*_Instancing.umap
+
+# World Partition: НЕ игнорить, если используешь WP в Content/
+# __ExternalActors__/
+# __ExternalObjects__/
+
+# Собранные/упакованные билды
+*.apk
+*.ipa
+*.pak
+*.sig
+*.exe
+*.pdb
+
+# ===== Python (плагины) =====
+__pycache__/
+*.pyc
+*.pyo
+
+# ===== IDE / OS =====
+.vs/
+*.vsconfig
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Общий мусор =====
+*.tmp
+*.temp
+*.log
+*.bak
+
+# ===== MotionBuilder cache =====
+*.fbm/
+
+# ===== ВНИМАНИЕ: DLL/LIB =====
+# Если НЕ коммитишь Plugins/VRM4U/ThirdParty — раскомментируй:
+# *.dll
+# *.lib
+# Но если коммитишь через LFS — оставь закомментированным
+# и добавь в .gitattributes: *.dll filter=lfs, *.lib filter=lfs
